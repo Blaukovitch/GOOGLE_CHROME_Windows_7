@@ -1,7 +1,7 @@
 # GOOGLE_CHROME_Windows_7
 Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK** repo  
-[🇨 🇷 🇦 🇨 🇰 *Original copy* 1️⃣ 2️⃣ 2️⃣](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/copy)  
-[🇨 🇷 🇦 🇨 🇰 *FIRST copy* 1️⃣ 1️⃣ 4️⃣](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Chrome_114)
+[🇨 🇷 🇦 🇨 🇰 *Disabled copy* 1️⃣ 2️⃣ 2️⃣](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/copy)  
+[🇨 🇷 🇦 🇨 🇰 *FIRST copy*    1️⃣ 1️⃣ 4️⃣](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Chrome_114)
 
 ## Chromium based projeects
 🦁 [Brave](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Brave_123)  
