@@ -9,7 +9,8 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 🅾️ [Opera](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Opera_modern)  
 🇪 [EDGE](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/EDGE_128)  
 🅥 [Vivaldi](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/vivaldi_upd)  
-📧 [ElectronMail](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ElectronMail_523)
+📧 [ElectronMail](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ElectronMail_523)  
+🇺 [ungoogled](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ungoogled)  
 # Chrome Enterprise Premium 
 Please, drop to me!  Private message in _cracklab.team_ forum - i send qTox number.  
 
