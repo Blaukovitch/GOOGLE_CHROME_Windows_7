@@ -3,7 +3,7 @@
 Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK** repo  
 
 ### Mozilla Firefox CRACK
-🦊 [Firefox 132.0.2](https://github.com/Blaukovitch/Mozilla_Firefox_Windows_7)  
+🦊 [Firefox 133.0.3](https://github.com/Blaukovitch/Mozilla_Firefox_Windows_7/releases/tag/FURRYFOX_3)  
 🧅 [Tor 14.0.2](https://github.com/Blaukovitch/Mozilla_Firefox_Windows_7/releases/tag/Tor2)
 
 ## Chromium based projeects
