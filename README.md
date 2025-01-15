@@ -15,7 +15,7 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 📧 [ElectronMail](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ElectronMail_530)  
 🇺 [ungoogled](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ungoogled)  
 
-#### Articles, news
+## Articles, news
 https://vk.com/wall-103116043_26401  
 https://xakep.ru/2023/08/10/chrome-for-windows-7/  
 https://habr.com/ru/articles/752692/  (5 technical articles)  
