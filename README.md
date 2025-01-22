@@ -10,6 +10,7 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 🦁 [Brave](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Brave_123)  
 🟢 [Spotify](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/spotify_new)  
 🅾️ [Opera](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/Opera_modern)  
+🎮 [Opera GX](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/opera_GX)  
 🇪 [EDGE](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/EDGE_128)  
 🅥 [Vivaldi](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/vivaldi_upd)  
 📧 [ElectronMail](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ElectronMail_530)  
