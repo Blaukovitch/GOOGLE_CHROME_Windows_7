@@ -18,6 +18,12 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 📈💰📊 [TradingView](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/TRView_295)  
 🐦 [MailBird](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/mailbird_3)  
 
+## Hardware Accelerated
+In `chrome://flags` must enabled:  
+**#ignore-gpu-blocklist  
+#enable-unsafe-webgpu   
+#enable-webgpu-developer-features**   
+
 ## Articles, news
 https://vk.com/wall-103116043_26401  
 https://xakep.ru/2023/08/10/chrome-for-windows-7/  
