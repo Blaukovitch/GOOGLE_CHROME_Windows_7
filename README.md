@@ -17,9 +17,10 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 🅥 [Vivaldi](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/vivaldi_upd)  
 📧 [ElectronMail](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ElectronMail_530)  
 🇺 [ungoogled](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/ungoogled)  
-📈💰📊 [TradingView](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/TRView_295)  
+📈💰 [TradingView](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/TRView_295)  
 🐦 [MailBird](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/mailbird_3)   
 👾 [Discord](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/discord)  
+📊 [draw.io](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/draw.io)  
 
 ## Hardware Accelerated
 In `chrome://flags` must enabled:  
