@@ -1,0 +1,160 @@
+80_PA SecuROM keygen
+*********************
+Signal Windows 7 CRACK, 2026
+..-..-..-..-..-..-..-..-..-
+https://cracklab.team/PAunlock
+
+[PE improt patch]
+@signalapp+libsignal-client.node
+libringrtc-x64.node
+---------------------------------
+kernel32.dll > KERNEL64.DLL
+bcryptprimitives.dll > xcryptprimitives.dll
+api-ms-win-core-synch-l1-2-0.dll > api-ms-win-core-synch-l1-2-7.dll
+
+
+@signalapp+sqlcipher.node
+---------------------------------
+api-ms-win-core-synch-l1-2-0.dll > api-ms-win-core-synch-l1-2-7.dll
+
+[PE x64/x86 assembly patch]
+@indutny+simple-windows-notific_unloaded
+RoGetAGileIntarface
+$+17E0           | 48:894C24 08                  | mov qword ptr ss:[rsp + 0x8],rcx                                                | [rsp+08]:"=::=::\\"
+$+17E5           | 55                            | push rbp                                                                        |
+$+17E6           | 53                            | push rbx                                                                        | rbx:napi_register_module_v1+189D0
+$+17E7           | 57                            | push rdi                                                                        | rdi:napi_register_module_v1+189E0
+$+17E8           | 48:8BEC                       | mov rbp,rsp                                                                     |
+$+17EB           | 48:83EC 50                    | sub rsp,0x50                                                                    |
+
+
+$+3BE0           | 48:895C24 08                  | mov qword ptr ss:[rsp + 0x8],rbx                                                | [rsp+08]:&L"h-MO_radstr"
+$+3BE5           | 48:897424 10                  | mov qword ptr ss:[rsp + 0x10],rsi                                               | [rsp+10]:protected: void __cdecl v8::internal::StrongRootAllocatorBase::deallocate_impl(unsigned __int64 *, unsigned __int64)+2A27D1
+$+3BEA           | 48:897C24 18                  | mov qword ptr ss:[rsp + 0x18],rdi                                               |
+$+3BEF           | 4C:896424 20                  | mov qword ptr ss:[rsp + 0x20],r12                                               |
+$+3BF4           | B8 01000000                   | mov eax,0x1                                                                     |
+$+3BF9           | C3                            | ret                                                                             |
+$+3BFA           | 48:81EC 30030000              | sub rsp,0x330                                                                   |
+$+3C01           | 48:8B05 F8930200              | mov rax,qword ptr ds:[0x7FEF217E000]                                            |
+
+
+signal.exe
+__int64 __fastcall sub_1450EA910(__int64 a1, __int64 *a2)
+{
+  __int64 v4; // rcx
+
+  v4 = *a2;
+  if ( a1 )
+  {
+    if ( v4 )
+    {
+      *a2 = 0;
+      (*(*v4 + 16LL))(v4);
+    }
+    return RoGetAgileReference(0, &unk_14A49E570, a1, a2);
+  }
+  else
+  {
+    *a2 = 0;
+    if ( v4 )
+      (*(*v4 + 16LL))(v4);
+    return 0;
+  }
+}
+$+50E9910        | 31C0                          | xor eax,eax                                                                     | eax:BaseThreadInitThunk
+$+50E9912        | C3                            | ret                                                                             |
+$+50E9913        | 90                            | nop                                                                             |
+$+50E9914        | 90                            | nop                                                                             |
+$+50E9915        | 90                            | nop                                                                             |
+$+50E9916        | 48:89D6                       | mov rsi,rdx                                                                     | rdx:Cr_z_crc32_z+659A40
+$+50E9919        | 48:89CF                       | mov rdi,rcx                                                                     |
+$+50E991C        | 48:8B0A                       | mov rcx,qword ptr ds:[rdx]                                                      | rdx:Cr_z_crc32_z+659A40
+$+50E991F        | 48:85FF                       | test rdi,rdi                                                                    |
+$+50E9922        | 74 35                         | je signal.1443CA959                                                             |
+
+
+
+//remove REG_NOTIFY_THREAD_AGNOSTIC flag
+$+2154253        | C74424 20 01000000            | mov dword ptr ss:[rsp + 0x20],0x1                                               |
+$+215425B        | 48:89D9                       | mov rcx,rbx                                                                     |
+$+215425E        | BA 01000000                   | mov edx,0x1                                                                     |
+$+2154263        | 41:B8 0F000000                | mov r8d,0xF                                                                     |
+$+2154269        | FF15 71651D0A                 | call qword ptr ds:[0x14B60B7E0]                                                 |
+
+$+3BF2484        | 48:8B4F 08                    | mov rcx,qword ptr ds:[rdi + 0x8]                                                |
+$+3BF2488        | 4C:8B4F 10                    | mov r9,qword ptr ds:[rdi + 0x10]                                                | r9:Cr_z_crc32_z+659A40
+$+3BF248C        | C74424 20 01000000            | mov dword ptr ss:[rsp + 0x20],0x1                                               |
+$+3BF2494        | BA 01000000                   | mov edx,0x1                                                                     |
+$+3BF2499        | 41:B8 05000000                | mov r8d,0x5                                                                     |
+$+3BF249F        | FF15 3B837308                 | call qword ptr ds:[0x14B60B7E0]                                                 |
+$+3BF24A5        | 85C0                          | test eax,eax                                                                    | eax:BaseThreadInitThunk
+$+3BF24A7        | 0F85 C4FEFFFF                 | jne signal.142ED3371                                                            |
+$+3BF24AD        | 48:8B4F 20                    | mov rcx,qword ptr ds:[rdi + 0x20]                                               |
+$+3BF24B1        | 4C:8B4F 28                    | mov r9,qword ptr ds:[rdi + 0x28]                                                | r9:Cr_z_crc32_z+659A40
+$+3BF24B5        | C74424 20 01000000            | mov dword ptr ss:[rsp + 0x20],0x1                                               |
+$+3BF24BD        | BA 01000000                   | mov edx,0x1                                                                     |
+$+3BF24C2        | 41:B8 05000000                | mov r8d,0x5                                                                     |
+$+3BF24C8        | FF15 12837308                 | call qword ptr ds:[0x14B60B7E0]                                                 |
+
+$+3BF250D        | C74424 20 01000000            | mov dword ptr ss:[rsp + 0x20],0x1                                               |
+$+3BF2515        | BA 01000000                   | mov edx,0x1                                                                     |
+$+3BF251A        | 41:B8 05000000                | mov r8d,0x5                                                                     |
+$+3BF2520        | FF15 BA827308                 | call qword ptr ds:[0x14B60B7E0]                                                 |
+$+3BF2526        | 85C0                          | test eax,eax                                                                    | eax:BaseThreadInitThunk
+$+3BF2528        | 75 22                         | jne signal.142ED354C                                                            |
+$+3BF252A        | 48:8B4E 20                    | mov rcx,qword ptr ds:[rsi + 0x20]                                               |
+$+3BF252E        | 4C:8B4E 28                    | mov r9,qword ptr ds:[rsi + 0x28]                                                | r9:Cr_z_crc32_z+659A40
+$+3BF2532        | C74424 20 01000000            | mov dword ptr ss:[rsp + 0x20],0x1                                               |
+$+3BF253A        | BA 01000000                   | mov edx,0x1                                                                     |
+$+3BF253F        | 41:B8 05000000                | mov r8d,0x5                                                                     |
+$+3BF2545        | FF15 95827308                 | call qword ptr ds:[0x14B60B7E0]                                                 |
+
+//WinAPI GetHostNameW redirection to kernel64.dll 
+$+3BB45CF        | 48:8D0D CE0C4708              | lea rcx,qword ptr ds:[0x14BA562A4]                                              | 000000014BA562A4:"kernel64"
+$+3BB45D6        | FF15 9C6F6608                 | call qword ptr ds:[<GetModuleHandleA>]                                          |
+$+3BB45DC        | 48:85C0                       | test rax,rax                                                                    |
+$+3BB45DF        | 74 17                         | je signal.1435E55F8                                                             |
+$+3BB45E1        | 48:8D15 C70C4708              | lea rdx,qword ptr ds:[<_GetHostNameW>]                                          | 000000014BA562AF:"GetHostNameW"
+$+3BB45E8        | 48:89C1                       | mov rcx,rax                                                                     |
+$+3BB45EB        | FF15 07706608                 | call qword ptr ds:[<GetProcAddress>]                                            |
+$+3BB45F1        | 48:8905 F83A8B08              | mov qword ptr ds:[0x14BE990F0],rax                                              |
+
+
+//OS version fixed 
+$+2D6445F        | 48:8B8C24 C0000000            | mov rcx,qword ptr ss:[rsp + 0xC0]                                               |
+$+2D64467        | 48:31E1                       | xor rcx,rsp                                                                     |
+$+2D6446A        | E8 81CE3202                   | call signal.144AC22F0                                                           |
+$+2D6446F        | 48:8D0D 5A5A6E09              | lea rcx,qword ptr ds:[0x14BE7AED0]                                              |
+$+2D64476        | E8 91BC3202                   | call signal.144AC110C                                                           |
+$+2D6447B        | 833D 4E5A6E09 FF              | cmp dword ptr ds:[0x14BE7AED0],0xFFFFFFFF                                       |
+$+2D64482        | 0F85 7AFFFFFF                 | jne signal.142795402                                                            |
+$+2D64488        | E8 B37D3EFF                   | call <signal.ver_info>                                                          |
+$+2D6448D        | 83F8 0C                       | cmp eax,0xC                                                                     | 0C:'\f'
+$+2D64490        | 7F 68                         | jg signal.1427954FA                                                             |
+$+2D64492        | E8 A97D3EFF                   | call <signal.ver_info>                                                          |
+$+2D64497        | 31C0                          | xor eax,eax                                                                     |
+$+2D64499        | 90                            | nop                                                                             |
+$+2D6449A        | 83F8 05                       | cmp eax,0x5                                                                     |
+$+2D6449D        | 0F87 CE010000                 | ja signal.142795671                                                             |
+$+2D644A3        | 31FF                          | xor edi,edi                                                                     |
+$+2D644A5        | 48:8D0D 604BFE08              | lea rcx,qword ptr ds:[0x14B77A00C]                                              |
+$+2D644AC        | 48:630481                     | movsxd rax,dword ptr ds:[rcx + rax * 4]                                         |
+$+2D644B0        | 48:01C8                       | add rax,rcx                                                                     |
+$+2D644B3        | FFE0                          | jmp rax                                                                         |
+
+
+//WEBGPU support
+$+28BD572        | 84C0                     | test al,al                                        |
+$+28BD574        | B8 02080000              | mov eax,802                                       |
+$+28BD579        | B9 00000000              | mov ecx,0                                         |
+$+28BD57E        | 0F45C8                   | cmovne ecx,eax                                    |
+$+28BD581        | 898C24 3C010000          | mov dword ptr ss:[rsp+13C],ecx                    |
+$+28BD588        | 0F57C0                   | xorps xmm0,xmm0                                   |
+$+28BD58B        | 0F298424 00010000        | movaps xmmword ptr ss:[rsp+100],xmm0              |
+...
+$+28B77E8        | F78424 58010000 40001000 | test dword ptr ss:[rsp+158],100040                |
+$+28B77F3        | 0F94C0                   | sete al                                           |
+$+28B77F6        | 48:85ED                  | test rbp,rbp                                      |
+$+28B77F9        | 0F95C1                   | setne cl                                          |
+$+28B77FC        | 08C1                     | or cl,al                                          |
+$+28B77FE        | 90                       
