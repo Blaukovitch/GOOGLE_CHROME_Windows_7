@@ -1,0 +1,1191 @@
+st re-engeener ELF (author of 80_PA SecuROM keygen) & CRACKLAB is presents:
+7777777777777777777777777777777777777777777777777777777777777
+	GOOGLE CHROME 145.0.7632.117 x86 for Windows 7 
+7777777777777777777777777777777777777777777777777777777777777
+				..:: 27.02.2026 ::..
+
+[ API-MS ]
+AP-MS-WIN_XP bridges:
++ KERNEL64.DLL 									~ kernel32.dll
++ USER64.DLL 									~ user32.dll 
++ USERENX.DLL 									~ userenv.dll
++ XCRYPTPRIMITIVES.dll 							~ bcryptprimitives.dll
++ Xfplat.dll 									~ MfPlat.dll 
++ WinXttp.dll									~ WinHttp.dll
++ XIAUTOMATIONCORE.dll							~ UIAUTOMATIONCORE.dll
++ API-MS-WIN-CORE-HANDLE-L1-1-0.dll
++ API-MS-WIN-CORE-LIBRARYLOADER-L1-2-0.dll
++ API-MS-WIN-CORE-REALTIME-L1-1-1.dll
++ API-MS-WIN-CORE-SYNCH-L1-2-7.dll (prev name : API-MS-WIN-CORE-SYNCH-L1-2-0.dll) ***
++ API-MS-WIN-CORE-WINRT-ERROR-L1-1-0.dll
++ API-MS-WIN-CORE-WINRT-L1-1-0.dll
++ API-MS-WIN-CORE-WINRT-STRING-L1-1-0.dll
++ API-MS-WIN-POWER-BASE-L1-1-0.dll
++ API-MS-WIN-POWER-SETTING-L1-1-1.dll
++ API-MS-WIN-SHCORE-SCALING-L1-1-1.dll
++ msvproc.dll
+
+
+[ API-MS ]
+kernel64.dll
+> Change WinAPI "PrefetchVirtualMemory" status (NOT_IMPLEMENTED)
++ Improved WinAPI "DiscardVirtualMemory" status
++ Improved WinAPI "SetThreadInformation" status
++ Improved WinAPI "CreateFile2" status
++ Added WinAPI "SetThreadSelectedCpuSets" implemetation
+
+XIAUTOMATIONCORE.dll
++ new coverage for DELAY_IMPORT
+
+[DISABLED for EXECUTE]
+chrome_pwa_launcher.exe_DISABLED
+elevated_tracing_service.exe_DISABLED
+elevation_service.exe_DISABLED
+os_update_handler.exe_DISABLED
+
+chrome.exe
+$+8756   | 68 5ECD1201              | push chrome.112CD5E                                                             | 112CD5E:L"xcryptprimitives.dll"
+$+875B   | FF15 30C21301            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+8761   | 85C0                     | test eax,eax                                                                    |
+$+8763   | 74 5E                    | je chrome.F497C3                                                                |
+$+8765   | 68 88CD1201              | push chrome.112CD88                                                             | 112CD88:"ProcessPrng"
+$+876A   | 50                       | push eax                                                                        |
+$+876B   | FF15 5CC11301            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+8771   | 89C1                     | mov ecx,eax                                                                     |
+$+8773   | A3 C8801501              | mov dword ptr ds:[11580C8],eax                                                  |
+$+8778   | 85C0                     | test eax,eax                                                                    |
+$+877A   | 0F85 69FFFFFF            | jne chrome.F496E9                                                               |
+$+8780   | EB 3E                    | jmp chrome.F497C0                                                               |
+$+8782   | 68 5ECD1201              | push chrome.112CD5E                                                             | 112CD5E:L"xcryptprimitives.dll"
+$+8787   | FF15 30C21301            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+878D   | 85C0                     | test eax,eax                                                                    |
+$+878F   | 74 35                    | je chrome.F497C6                                                                |
+$+8791   | 68 88CD1201              | push chrome.112CD88                                                             | 112CD88:"ProcessPrng"
+$+8796   | 50                       | push eax                                                                        |
+$+8797   | FF15 5CC11301            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+16D5E   78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+16D6E   69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+16D7E   2E 00 64 00 6C 00 6C 00 00 00 50 72 6F 63 65 73  ..d.l.l...Proces  
+
+chrome_elf.dll
+$+34040  | 55                       | push ebp                                                                        |
+$+34041  | 89E5                     | mov ebp,esp                                                                     |
+$+34043  | 68 18950570              | push chrome_elf.70059518                                                        | 70059518:L"xcryptprimitives"
+$+34048  | FF15 B0EA0570            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+3404E  | 85C0                     | test eax,eax                                                                    |
+$+34050  | 74 17                    | je chrome_elf.6FF95069                                                          |
+$+34052  | 68 1A810570              | push chrome_elf.7005811A                                                        | 7005811A:"ProcessPrng"
+$+34057  | 50                       | push eax                                                                        |
+$+34058  | FF15 20EA0570            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+15518   78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+15528   69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+
+$+58C29  | 68 F0800570              | push chrome_elf.700580F0                                                        | 700580F0:L"xcryptprimitives.dll"
+$+58C2E  | FF15 B0EA0570            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+58C34  | 85C0                     | test eax,eax                                                                    |
+$+58C36  | 74 27                    | je chrome_elf.6FFB9C5F                                                          |
+$+58C38  | 68 1A810570              | push chrome_elf.7005811A                                                        | 7005811A:"ProcessPrng"
+$+58C3D  | 50                       | push eax                                                                        |
+$+58C3E  | FF15 20EA0570            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+58C44  | 85C0                     | test eax,eax                                                                    |
+$+58C46  | 74 1A                    | je chrome_elf.6FFB9C62                                                          |
+$+140F0   78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+14100   69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+14110   2E 00 64 00 6C 00 6C 00 00 00 50 72 6F 63 65 73  ..d.l.l...Proces  
+
+
+notification_helper.exe
+$+3A0B0  | 55                       | push ebp                                                                        |
+$+3A0B1  | 89E5                     | mov ebp,esp                                                                     |
+$+3A0B3  | 68 081C3901              | push notification_helper.1391C08                                                | 1391C08:L"xcryptprimitives"
+$+3A0B8  | FF15 28803901            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+3A0BE  | 85C0                     | test eax,eax                                                                    |
+$+3A0C0  | 74 17                    | je notification_helper.12CB0D9                                                  |
+$+3A0C2  | 68 8AE73801              | push notification_helper.138E78A                                                | 138E78A:"ProcessPrng"
+$+3A0C7  | 50                       | push eax                                                                        |
+$+3A0C8  | FF15 947F3901            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+14C08   78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+14C18   69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+14C28   00 00 2E 2E 5C 2E 2E 5C 74 68 69 72 64 5F 70 61  ....\..\third_pa  
+
+$+5D8E0  | 833D 34113A01 FF         | cmp dword ptr ds:[13A1134],FFFFFFFF                                             |
+$+5D8E7  | 75 D2                    | jne notification_helper.12EE8BB                                                 |
+$+5D8E9  | 68 60E73801              | push notification_helper.138E760                                                | 138E760:L"xcryptprimitives.dll"
+$+5D8EE  | FF15 28803901            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+5D8F4  | 85C0                     | test eax,eax                                                                    |
+$+5D8F6  | 74 27                    | je notification_helper.12EE91F                                                  |
+$+5D8F8  | 68 8AE73801              | push notification_helper.138E78A                                                | 138E78A:"ProcessPrng"
+$+5D8FD  | 50                       | push eax                                                                        |
+$+5D8FE  | FF15 947F3901            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+11760   78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+11770   69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+11780   2E 00 64 00 6C 00 6C 00 00 00 50 72 6F 63 65 73  ..d.l.l...Proces  
+
+
+optimization_guide_internal.dll
+$+E32C3  | 68 7813D16F              | push optimization_guide_internal.6FD11378                                       | 6FD11378:L"xcryptprimitives"
+$+E32C8  | FF15 EC31D26F            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+E32CE  | 85C0                     | test eax,eax                                                                    |
+$+E32D0  | 74 17                    | je optimization_guide_internal.6F2342E9                                         |
+$+E32D2  | 68 2EA6D06F              | push optimization_guide_internal.6FD0A62E                                       | 6FD0A62E:"ProcessPrng"
+$+E32D7  | 50                       | push eax                                                                        |
+$+E32D8  | FF15 6031D26F            | call dword ptr ds:[<GetProcAddress>]                                            |
+6FD11378  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+6FD11388  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+
+
+$+1A8B07 | 68 04A6D06F              | push optimization_guide_internal.6FD0A604                                       | 6FD0A604:L"xcryptprimitives.dll"
+$+1A8B0C | FF15 EC31D26F            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+1A8B12 | 85C0                     | test eax,eax                                                                    |
+$+1A8B14 | 74 1D                    | je optimization_guide_internal.6F2F9B33                                         |
+$+1A8B16 | 68 2EA6D06F              | push optimization_guide_internal.6FD0A62E                                       | 6FD0A62E:"ProcessPrng"
+$+1A8B1B | 50                       | push eax                                                                        |
+$+1A8B1C | FF15 6031D26F            | call dword ptr ds:[<GetProcAddress>]                                            |
+6FD0A604  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+6FD0A614  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+6FD0A624  2E 00 64 00 6C 00 6C 00 00 00 50 72 6F 63 65 73  ..d.l.l...Proces  
+
+
+..\WidevineCdm\_platform_specific\win_x86\widevinecdm.dll
+$+546E13 | 68 6EEBD86B              | push widevinecdm.6BD8EB6E                                                       | 6BD8EB6E:L"xcryptprimitives"
+$+546E18 | FF15 5801DC6B            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+546E1E | 85C0                     | test eax,eax                                                                    |
+$+546E20 | 74 17                    | je widevinecdm.6B157E39                                                         |
+$+546E22 | 68 90EBD86B              | push widevinecdm.6BD8EB90                                                       | 6BD8EB90:"ProcessPrng"
+$+546E27 | 50                       | push eax                                                                        |
+$+546E28 | FF15 BC00DC6B            | call dword ptr ds:[<GetProcAddress>]                                            |
+6BD8EB6E  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+6BD8EB7E  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+6BD8EB8E  00 00 50 72 6F 63 65 73 73 50 72 6E 67 00 00 00  ..ProcessPrng...  
+
+$+549793 | 68 E2EDD86B              | push widevinecdm.6BD8EDE2                                                       | 6BD8EDE2:L"xcryptprimitives.dll"
+$+549798 | FF15 5801DC6B            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+54979E | 85C0                     | test eax,eax                                                                    |
+$+5497A0 | 74 12                    | je widevinecdm.6B15A7B4                                                         |
+$+5497A2 | 68 90EBD86B              | push widevinecdm.6BD8EB90                                                       | 6BD8EB90:"ProcessPrng"
+$+5497A7 | 50                       | push eax                                                                        |
+$+5497A8 | FF15 BC00DC6B            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+5497AE | 85C0                     | test eax,eax                                                                    |
+$+5497B0 | 74 05                    | je widevinecdm.6B15A7B7                                                         |
+6BD8EDE2  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+6BD8EDF2  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+6BD8EE02  2E 00 64 00 6C 00 6C 00 00 00 43 61 6E 27 74 20  ..d.l.l...Can't   
+6BD8EE12  68 61 70 70 65 6E 00 00 00 00 93 AA 15 6B 48 AB  happen.....ª.kH«  
+
+
+
+	[chrome.dll] (main chrome Dynamic Link Library)
+API-MS-POWERSETTINGS... > POWRPROF.DLL
+UIAUTOMATIONCORE.DLL > XIAUTOMATIONCORE.DLL
+
+//IID_IDWriteFactory3 to IID_DWriteFactory
+/*
+IID_IDWriteFactory3 == {9A1B41C3-D3BB-466A-87FC-FE67556A3B65}
+IID_DWriteFactory   == {B859EE5A-D838-4B5B-A2E8-1ADC7D93DB48}
+*/
+$+70B978  5A EE 59 B8 38 D8 5B 4B A2 E8 1A DC 7D 93 DB 48  ZîY¸8Ø[K¢è.Ü}.ÛH  //{B859EE5A-D838-4B5B-A2E8-1ADC7D93DB48}
+
+
+
+//(b)xcryptprimitives - default runtime randomize ops
+$+232710 | 833D 0CB62771 FF         | cmp dword ptr ds:[7127B60C],FFFFFFFF                                            |
+$+232710 | 75 D0                    | jne chrome.65FE80D9                                                             |
+$+232710 | 68 96275A70              | push chrome.705A2796                                                            | 705A2796:L"xcryptprimitives.dll"
+$+232710 | FF15 081E1171            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+232711 | 85C0                     | test eax,eax                                                                    |
+$+232711 | 74 32                    | je chrome.65FE814A                                                              |
+$+232711 | 68 C0275A70              | push chrome.705A27C0                                                            | 705A27C0:"ProcessPrng"
+$+232711 | 50                       | push eax                                                                        |
+$+232711 | FF15 841C1171            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+AE0796  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+AE07A6  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+AE07B6  2E 00 64 00 6C 00 6C 00 00 00 50 72 6F 63 65 73  ..d.l.l...Proces  
+
+$+25E620 | 55                       | push ebp                                                                        |
+$+25E620 | 89E5                     | mov ebp,esp                                                                     |
+$+25E620 | 68 487D6970              | push chrome.70697D48                                                            | 70697D48:L"xcryptprimitives"
+$+25E620 | FF15 081E1171            | call dword ptr ds:[<LoadLibraryW>]                                              |
+$+25E620 | 85C0                     | test eax,eax                                                                    |
+$+25E621 | 74 17                    | je chrome.662A7229                                                              |
+$+25E621 | 68 C0275A70              | push chrome.705A27C0                                                            | 705A27C0:"ProcessPrng"
+$+25E621 | 50                       | push eax                                                                        |
+$+25E621 | FF15 841C1171            | call dword ptr ds:[<GetProcAddress>]                                            |
+$+25E621 | A3 14452971              | mov dword ptr ds:[71294514],eax                                                 |
+$+25E622 | 85C0                     | test eax,eax                                                                    |
+$+25E622 | 74 02                    | je chrome.662A7229                                                              |
+$+BD5D48  78 00 63 00 72 00 79 00 70 00 74 00 70 00 72 00  x.c.r.y.p.t.p.r.  
+$+BD5D58  69 00 6D 00 69 00 74 00 69 00 76 00 65 00 73 00  i.m.i.t.i.v.e.s.  
+$+BD5D68  00 00 00 00 01 00 00 00 10 00 00 00 C4 7D 69 70  ............Ä}ip  
+
+
+//BYPASS invalid handles in mapping table (je >-> nop)
+$+6ABDE4 | E8 47F2B702              | call chrome.5754C030                                                            |
+$+6ABDE9 | 83C4 14                  | add esp,14                                                                      |
+$+6ABDEC | 8B66 04                  | mov esp,dword ptr ds:[esi+4]                                                    |
+$+6ABDEF | 803F 00                  | cmp byte ptr ds:[edi],0                                                         |
+$+6ABDF2 | 90                       | nop                                                                             |
+$+6ABDF3 | 90                       | nop                                                                             |
+$+6ABDF4 | 90                       | nop                                                                             |
+$+6ABDF5 | 90                       | nop                                                                             |
+$+6ABDF6 | 90                       | nop                                                                             |
+$+6ABDF7 | 90                       | nop                                                                             |
+$+6ABDF8 | 31C0                     | xor eax,eax                                                                     |
+$+6ABDFA | 8B3E                     | mov edi,dword ptr ds:[esi]                                                      |
+$+6ABDFC | 8907                     | mov dword ptr ds:[edi],eax                                                      |
+$+6ABDFE | 8B5E 20                  | mov ebx,dword ptr ds:[esi+20]                                                   |
+$+6ABE01 | 85DB                     | test ebx,ebx                                                                    |
+$+6ABE03 | 0F95C1                   | setne cl                                                                        |
+$+6ABE06 | 0F99C2                   | setns dl                                                                        |
+$+6ABE09 | 895E 04                  | mov dword ptr ds:[esi+4],ebx                                                    |
+$+6ABE0C | 83FB F4                  | cmp ebx,FFFFFFF4                                                                |
+$+6ABE0F | 0F9CC3                   | setl bl                                                                         |
+$+6ABE12 | 08D3                     | or bl,dl                                                                        |
+$+6ABE14 | 20CB                     | and bl,cl                                                                       |
+$+6ABE16 | 8946 20                  | mov dword ptr ds:[esi+20],eax                                                   |
+$+6ABE19 | 80FB 01                  | cmp bl,1                                                                        |
+$+6ABE1C | 75 07                    | jne chrome.549CCE25                                                             |
+
+//BYPASS invalid "trial-handle" (#2)
+$+E97A35 | 6A 12                    | push 12                                                                         |
+$+E97A37 | 68 02FF300F              | push chrome.F30FF02                                                             | F30FF02:"field-trial-handle"
+$+E97A3C | 57                       | push edi                                                                        |
+$+E97A3D | E8 9E177202              | call chrome.5EFA1E0                                                             |
+$+E97A42 | 0F57C0                   | xorps xmm0,xmm0                                                                 |
+$+E97A45 | F2:0F114424 40           | movsd qword ptr ss:[esp+40],xmm0                                                |
+$+E97A4B | 0F57C0                   | xorps xmm0,xmm0                                                                 |
+$+E97A4E | 0F294424 30              | movaps xmmword ptr ss:[esp+30],xmm0                                             |
+$+E97A53 | 0F294424 20              | movaps xmmword ptr ss:[esp+20],xmm0                                             |
+...
+$+E97B9F | 85FF                     | test edi,edi                                                                    |
+$+E97BA1 | 90                       | nop                                                                             |
+$+E97BA2 | 90                       | nop                                                                             |
+$+E97BA3 | 90                       | nop                                                                             |
+$+E97BA4 | 90                       | nop                                                                             |
+$+E97BA5 | 90                       | nop                                                                             |
+$+E97BA6 | 90                       | nop                                                                             |
+$+E97BA7 | 8D4C24 0C                | lea ecx,dword ptr ss:[esp+C]                                                    | ecx:CreateProcessInternalW+DA9
+
+
+//BYPASS DuplicateHandle verification from table (#3)
+$+322B0F | FF15 E41A5863            | call dword ptr ds:[<DuplicateHandle>]                                           |
+$+322B0F | 89C6                     | mov esi,eax                                                                     |
+$+322B0F | 85C0                     | test eax,eax                                                                    |
+$+322B0F | 74 0A                    | je chrome.5935C109                                                              |
+$+322B0F | FF7424 20                | push dword ptr ss:[esp+20]                                                      |
+$+322B10 | FF15 641A5863            | call dword ptr ds:[<CloseHandle>]                                               |
+$+322B10 | 85F6                     | test esi,esi                                                                    |
+$+322B10 | 0F94C0                   | sete al                                                                         |
+$+322B10 | 8B5424 10                | mov edx,dword ptr ss:[esp+10]                                                   |
+$+322B11 | 85D2                     | test edx,edx                                                                    |
+$+322B11 | 0F94C1                   | sete cl                                                                         |
+$+322B11 | 38C1                     | cmp cl,al                                                                       |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 90                       | nop                                                                             |
+$+322B11 | 8D55 08                  | lea edx,dword ptr ss:[ebp+8]                                                    |
+
+
+
+//BYPASS version check (check_os_ver must return 7 or higher for ADD asm op)
+$+CEDDBC | E8 0FE99E00              | call <chrome.check_os_ver>                                                      |
+$+CEDDC1 | B8 04000000              | mov eax,4                                                                       |
+$+CEDDC6 | 8985 20FFFFFF            | mov dword ptr ss:[ebp-E0],eax                                                   |
+$+CEDDCC | 90                       | nop                                                                             |
+$+CEDDCD | 90                       | nop                                                                             |
+$+CEDDCE | 90                       | nop                                                                             |
+$+CEDDCF | 90                       | nop                                                                             |
+$+CEDDD0 | 90                       | nop                                                                             |
+$+CEDDD1 | 90                       | nop                                                                             |
+$+CEDDD2 | 90                       | nop                                                                             |
+$+CEDDD3 | 90                       | nop                                                                             |
+$+CEDDD4 | 90                       | nop                                                                             |
+$+CEDDD5 | 90                       | nop                                                                             |
+$+CEDDD6 | 31FF                     | xor edi,edi                                                                     | edi:"Desktop"
+$+CEDDD8 | E9 17FCFFFF              | jmp chrome.5500E9F4                                                             |
+
+
+
+//bypass absent WS32_2.GetAddrInfoExCancel >> WSACleanup 
+.text:185188F0 ; =============== S U B R O U T I N E =======================================
+.text:185188F0
+.text:185188F0 ; Attributes: bp-based frame
+.text:185188F0
+.text:185188F0 sub_185188F0    proc near               ; CODE XREF: sub_18519260+6↓p
+.text:185188F0                 push    ebp
+.text:185188F1                 mov     ebp, esp
+.text:185188F3                 push    edi
+.text:185188F4                 push    esi
+.text:185188F5                 sub     esp, 8
+.text:185188F8                 mov     esi, ecx
+.text:185188FA                 mov     eax, ___security_cookie
+.text:185188FF                 xor     eax, ebp
+.text:18518901                 mov     [ebp-0Ch], eax
+.text:18518904                 mov     dword ptr [ecx], offset off_1BEECA7C
+.text:1851890A                 cmp     dword ptr [ecx+4], 0
+.text:1851890E                 jz      short loc_18518932
+.text:18518910                 lea     eax, [esi+74h]
+.text:18518913                 push    eax
+.text:18518914                 call    ds:GetAddrInfoExCancel
+.text:1851891A                 mov     edi, [esi+4]
+.text:1851891D                 push    edi
+.text:1851891E                 call    ds:EnterCriticalSection
+	>>
+int WSACleanup();
+https://learn.microsoft.com/en-us/windows/win32/api/winsock/nf-winsock-wsacleanup
+$+85178F | 55                       | push ebp                                                                        |
+$+85178F | 89E5                     | mov ebp,esp                                                                     |
+$+85178F | 57                       | push edi                                                                        |
+$+85178F | 56                       | push esi                                                                        |
+$+85178F | 83EC 08                  | sub esp,8                                                                       |
+$+85178F | 89CE                     | mov esi,ecx                                                                     |
+$+85178F | A1 40900C71              | mov eax,dword ptr ds:[710C9040]                                                 |
+$+85178F | 31E8                     | xor eax,ebp                                                                     |
+$+851790 | 8945 F4                  | mov dword ptr ss:[ebp-C],eax                                                    |
+$+851790 | C701 7CCAB56F            | mov dword ptr ds:[ecx],chrome.6FB5CA7C                                          |
+$+851790 | 8379 04 00               | cmp dword ptr ds:[ecx+4],0                                                      | 
+$+851790 | 74 22                    | je chrome.6C188932                                                              |
+$+851791 | EB 08                    | jmp chrome.6C18891A                                                             |
+$+851791 | 90                       | nop                                                                             |
+$+851791 | 50                       | push eax                                                                        |
+$+851791 | FF15 34200C71            | call dword ptr ds:[<WSACleanup>]                                                |
+$+851791 | 8B7E 04                  | mov edi,dword ptr ds:[esi+4]                                                    | critical section only
+$+851791 | 57                       | push edi                                                                        |
+$+851791 | FF15 EC1A0C71            | call dword ptr ds:[<EnterCriticalSection>]                                      |
+$+851792 | C747 18 00000000         | mov dword ptr ds:[edi+18],0                                                     |
+$+851792 | 57                       | push edi                                                                        |
+$+851792 | FF15 F81D0C71            | call dword ptr ds:[<LeaveCriticalSection>]                                      |
+$+851793 | 8D7E 7C                  | lea edi,dword ptr ds:[esi+7C]                                                   | [ecx+4] == 0 when
+
+
+//bypass absent OLE32.RoGetAgileReference >> WSACleanup 
+int __fastcall sub_1440EE10(int a1, int *a2)
+{
+  int v2; // ebx
+  int savedregs; // [esp+Ch] [ebp+0h]
+  int savedregsa; // [esp+Ch] [ebp+0h]
+  int savedregsb; // [esp+Ch] [ebp+0h]
+
+  v2 = *a2;
+  if ( a1 )
+  {
+    if ( v2 )
+    {
+      *a2 = 0;
+      savedregs = v2;
+      (*(void (**)(void))(*(_DWORD *)v2 + 8))();
+    }
+    savedregsa = 0;
+    return RoGetAgileReference();
+  }
+  else
+  {
+    *a2 = 0;
+    if ( v2 )
+    {
+      savedregsb = v2;
+      (*(void (**)(void))(*(_DWORD *)v2 + 8))();
+    }
+    return 0;
+  }
+}
+	>>
+HRESULT OleInitialize(
+  [in] LPVOID pvReserved
+);
+https://learn.microsoft.com/en-us/windows/win32/api/ole2/nf-ole2-oleinitialize
+$+440DE1 | 55                       | push ebp                                                                        |
+$+440DE1 | 89E5                     | mov ebp,esp                                                                     |
+$+440DE1 | 53                       | push ebx                                                                        |
+$+440DE1 | 57                       | push edi                                                                        |
+$+440DE1 | 56                       | push esi                                                                        |
+$+440DE1 | 89D6                     | mov esi,edx                                                                     | 
+$+440DE1 | 8B1A                     | mov ebx,dword ptr ds:[edx]                                                      |
+$+440DE1 | 85C9                     | test ecx,ecx                                                                    |
+$+440DE1 | 74 2E                    | je chrome.6807EE4C                                                              |
+$+440DE1 | 89CF                     | mov edi,ecx                                                                     |
+$+440DE2 | 85DB                     | test ebx,ebx                                                                    |
+$+440DE2 | 74 14                    | je chrome.6807EE38                                                              |
+$+440DE2 | C706 00000000            | mov dword ptr ds:[esi],0                                                        |
+$+440DE2 | 8B03                     | mov eax,dword ptr ds:[ebx]                                                      |
+$+440DE2 | 8B48 08                  | mov ecx,dword ptr ds:[eax+8]                                                    |
+$+440DE2 | FF15 A8BB0B71            | call dword ptr ds:[710BBBA8]                                                    |
+$+440DE3 | 53                       | push ebx                                                                        |
+$+440DE3 | FFD1                     | call ecx                                                                        |
+$+440DE3 | EB 2A                    | jmp chrome.6807EE64                                                             | jmp short ret S_OK (skip call)
+$+440DE3 | 68 8C16AA6F              | push chrome.6FAA168C                                                            |
+$+440DE3 | 6A 00                    | push 0                                                                          |
+$+440DE4 | FF15 D8411E71            | call dword ptr ds:[711E41D8]                                                    | RoGetAgileInterface (DELAY_IMPORT) >> OleInitialize
+$+440DE4 | 5E                       | pop esi                                                                         |
+$+440DE4 | 5F                       | pop edi                                                                         |
+$+440DE4 | 5B                       | pop ebx                                                                         |
+$+440DE4 | 5D                       | pop ebp                                                                         |
+$+440DE4 | C3                       | ret                                                                             |
+$+440DE4 | C706 00000000            | mov dword ptr ds:[esi],0                                                        |
+$+440DE5 | 85DB                     | test ebx,ebx                                                                    |
+$+440DE5 | 74 0E                    | je chrome.6807EE64                                                              |
+$+440DE5 | 8B03                     | mov eax,dword ptr ds:[ebx]                                                      |
+$+440DE5 | 8B48 08                  | mov ecx,dword ptr ds:[eax+8]                                                    |
+$+440DE5 | FF15 A8BB0B71            | call dword ptr ds:[710BBBA8]                                                    |
+$+440DE6 | 53                       | push ebx                                                                        |
+$+440DE6 | FFD1                     | call ecx                                                                        |
+$+440DE6 | 31C0                     | xor eax,eax                                                                     | return S_OK
+$+440DE6 | EB DF                    | jmp chrome.6807EE47                                                             |
+
+
+//RoGetAgileReference #2 (inside NOTIFY)
+$+90D384 | 8D4D E0                  | lea ecx,dword ptr ss:[ebp-20]                                                   |
+$+90D385 | 68 DCA42072              | push chrome.7220A4DC                                                            | 7220A4DC:"RoGetAgileReference"
+$+90D385 | E8 76E050F9              | call chrome.679D28D0                                                            |
+$+90D385 | 85C0                     | test eax,eax                                                                    |
+$+90D385 | 0F84 D1000000            | je chrome.6E4C4933                                                              |
+...
+$+90D387 | 68 5C166171              | push chrome.7161165C                                                            |
+$+90D388 | 57                       | push edi                                                                        |
+$+90D388 | FFD3                     | call ebx                                                                        |
+$+90D388 | 85C0                     | test eax,eax                                                                    |
+$+90D388 | 0F88 A6000000            | js chrome.6E4C4933                                                              |
+
+
+// fixed COM create for upload
+/* http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1 */
+// core site #1
+$+92B12C | 31C0                     | xor eax,eax                                                                     |
+$+92B12C | C2 0400                  | ret 4                                                                           |
+$+92B12C | 56                       | push esi                                                                        |
+$+92B12C | 83E4 F8                  | and esp,FFFFFFF8                                                                |
+$+92B12C | 81EC C0000000            | sub esp,C0                                                                      |
+$+92B12C | 89CE                     | mov esi,ecx                                                                     |
+$+92B12D | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B12D | 31E8                     | xor eax,ebp                                                                     |
+$+92B12D | 898424 B8000000          | mov dword ptr ss:[esp+B8],eax                                                   |
+$+92B12D | E8 9CFAFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B12E | 83F8 02                  | cmp eax,2                                                                       |
+$+92B12E | 0F85 58010000            | jne chrome.6A1F2445                                                             |
+$+92B12E | 8B7D 08                  | mov edi,dword ptr ss:[ebp+8]                                                    | [ebp+08]:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+// site #2
+$+92B106 | 31C0                     | xor eax,eax                                                                     |
+$+92B106 | C3                       | ret                                                                             |
+$+92B106 | 53                       | push ebx                                                                        | ebx:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+$+92B106 | 57                       | push edi                                                                        |
+$+92B106 | 56                       | push esi                                                                        |
+$+92B106 | 83E4 F8                  | and esp,FFFFFFF8                                                                |
+$+92B106 | 83EC 30                  | sub esp,30                                                                      |
+$+92B106 | 89CE                     | mov esi,ecx                                                                     |
+$+92B106 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B107 | 31E8                     | xor eax,ebp                                                                     |
+$+92B107 | 894424 28                | mov dword ptr ss:[esp+28],eax                                                   |
+$+92B107 | E8 02FDFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B107 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B108 | 0F85 41010000            | jne chrome.6A1F21C8                                                             |
+// site #3
+$+92B10D | E8 A1FCFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B10D | 83F8 02                  | cmp eax,2                                                                       |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | 90                       | nop                                                                             |
+$+92B10E | EB 0E                    | jmp chrome.6A1F20F8                                                             |
+// site #4
+$+92B10E | E8 91FCFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B10E | 83F8 02                  | cmp eax,2                                                                       |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 90                       | nop                                                                             |
+$+92B10F | 89F1                     | mov ecx,esi                                                                     |
+$+92B10F | BA FFFF0080              | mov edx,8000FFFF                                                                |
+$+92B10F | EB 04                    | jmp chrome.6A1F2105                                                             |
+//site #5
+$+92B12D | 898424 B8000000          | mov dword ptr ss:[esp+B8],eax                                                   |
+$+92B12D | E8 9CFAFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B12E | 83F8 02                  | cmp eax,2                                                                       |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 90                       | nop                                                                             |
+$+92B12E | 8B7D 08                  | mov edi,dword ptr ss:[ebp+8]                                                    | [ebp+08]:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+// site #6
+$+92B145 | 31C0                     | xor eax,eax                                                                     |
+$+92B145 | C3                       | ret                                                                             |
+$+92B145 | 53                       | push ebx                                                                        | ebx:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+$+92B145 | 57                       | push edi                                                                        |
+$+92B145 | 56                       | push esi                                                                        |
+$+92B145 | 83EC 2C                  | sub esp,2C                                                                      |
+$+92B145 | 89D6                     | mov esi,edx                                                                     |
+$+92B145 | 89CF                     | mov edi,ecx                                                                     |
+$+92B145 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B146 | 31E8                     | xor eax,ebp                                                                     |
+$+92B146 | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   | [ebp-10]:&"DoStartDownload"
+$+92B146 | E8 14F9FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B146 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B146 | 0F85 39010000            | jne chrome.6A1F25AE                                                             |
+// site #7
+$+92B15C | 31C0                     | xor eax,eax                                                                     |
+$+92B15C | C3                       | ret                                                                             |
+$+92B15C | 53                       | push ebx                                                                        | ebx:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+$+92B15C | 57                       | push edi                                                                        |
+$+92B15C | 56                       | push esi                                                                        |
+$+92B15C | 83E4 F0                  | and esp,FFFFFFF0                                                                |
+$+92B15C | 81EC 40010000            | sub esp,140                                                                     |
+$+92B15C | 895424 0C                | mov dword ptr ss:[esp+C],edx                                                    |
+$+92B15D | 89CE                     | mov esi,ecx                                                                     |
+$+92B15D | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B15D | 31E8                     | xor eax,ebp                                                                     |
+$+92B15D | 898424 38010000          | mov dword ptr ss:[esp+138],eax                                                  |
+$+92B15E | E8 98F7FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B15E | 83F8 02                  | cmp eax,2                                                                       |
+//site #8
+$+92B19C | 31C0                     | xor eax,eax                                                                     |
+$+92B19C | C3                       | ret                                                                             |
+$+92B19C | 53                       | push ebx                                                                        | 
+$+92B19C | 57                       | push edi                                                                        |
+$+92B19C | 56                       | push esi                                                                        |
+$+92B19C | 83EC 0C                  | sub esp,C                                                                       |
+$+92B19C | 89D7                     | mov edi,edx                                                                     |
+$+92B19C | 89CB                     | mov ebx,ecx                                                                     |
+$+92B19C | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B19D | 31E8                     | xor eax,ebp                                                                     |
+$+92B19D | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   |
+$+92B19D | E8 A4F3FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B19D | 83F8 02                  | cmp eax,2                                                                       |
+$+92B19D | 90                       | nop                                                                             |
+$+92B19E | 90                       | nop                                                                             |
+$+92B19E | 90                       | nop                                                                             |
+$+92B19E | 90                       | nop                                                                             |
+$+92B19E | 90                       | nop                                                                             |
+$+92B19E | 90                       | nop                                                                             |
+$+92B19E | 89D9                     | mov ecx,ebx                                                                     | 
+//site #9
+$+92B1AE | 55                       | push ebp                                                                        |
+$+92B1AE | 89E5                     | mov ebp,esp                                                                     |
+$+92B1AE | 56                       | push esi                                                                        |
+$+92B1AE | 89CE                     | mov esi,ecx                                                                     |
+$+92B1AE | E8 95F2FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1AE | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1AE | 90                       | nop                                                                             |
+$+92B1AE | 90                       | nop                                                                             |
+$+92B1AF | 89F1                     | mov ecx,esi                                                                     |
+$+92B1AF | E8 F9030000              | call chrome.6A1F2EF0                                                            |
+$+92B1AF | 89F1                     | mov ecx,esi                                                                     |
+$+92B1AF | 89C2                     | mov edx,eax                                                                     |
+//site #10
+$+92B1B1 | 31E8                     | xor eax,ebp                                                                     |
+$+92B1B2 | 8945 F8                  | mov dword ptr ss:[ebp-8],eax                                                    |
+$+92B1B2 | E8 58F2FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1B2 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1B2 | 90                       | nop                                                                             |
+$+92B1B2 | 90                       | nop                                                                             |
+$+92B1B2 | 8D4E 4C                  | lea ecx,dword ptr ds:[esi+4C]                                                   |
+// site #11
+$+92B1B7 | 89CE                     | mov esi,ecx                                                                     |
+$+92B1B7 | E8 04F2FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1B7 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1B7 | 90                       | nop                                                                             |
+$+92B1B8 | 90                       | nop                                                                             |
+$+92B1B8 | 89F1                     | mov ecx,esi                                                                     |
+$+92B1B8 | E8 88050000              | call chrome.6A1F3110                                                            |
+// site #12
+$+92B1BB | 31E8                     | xor eax,ebp                                                                     |
+$+92B1BC | 8945 F4                  | mov dword ptr ss:[ebp-C],eax                                                    | [ebp-0C]:sqlite3_dbdata_init+F50200
+$+92B1BC | E8 B7F1FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1BC | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1BC | 90                       | nop                                                                             |
+$+92B1BC | 90                       | nop                                                                             |
+$+92B1BC | 8D4E 4C                  | lea ecx,dword ptr ds:[esi+4C]                                                   |
+$+92B1BD | 8D55 F0                  | lea edx,dword ptr ss:[ebp-10]                                                   | 
+$+92B1BD | E8 87040000              | call chrome.6A1F3060                                                            |
+// site #13
+$+92B1C5 | 83E4 F0                  | and esp,FFFFFFF0                                                                |
+$+92B1C5 | 83EC 40                  | sub esp,40                                                                      |
+$+92B1C5 | 89CE                     | mov esi,ecx                                                                     |
+$+92B1C5 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B1C6 | 31E8                     | xor eax,ebp                                                                     |
+$+92B1C6 | 894424 38                | mov dword ptr ss:[esp+38],eax                                                   | [esp+38]:IsSandboxedProcess+C2C2C0
+$+92B1C6 | E8 12F1FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1C6 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 90                       | nop                                                                             |
+$+92B1C7 | 8B0D 2C3D3E6E            | mov ecx,dword ptr ds:[6E3E3D2C]                                                 |
+$+92B1C7 | FF15 A8BB386E            | call dword ptr ds:[6E38BBA8]                                                    |
+// site #14
+$+92B1EF | 83E4 F0                  | and esp,FFFFFFF0                                                                |
+$+92B1EF | 83EC 50                  | sub esp,50                                                                      |
+$+92B1EF | 89CF                     | mov edi,ecx                                                                     |
+$+92B1EF | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B1F0 | 31E8                     | xor eax,ebp                                                                     |
+$+92B1F0 | 894424 48                | mov dword ptr ss:[esp+48],eax                                                   | [esp+48]:&"DeregisterSubprocessAllocator"
+$+92B1F0 | E8 72EEFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B1F0 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 90                       | nop                                                                             |
+$+92B1F1 | 8B77 4C                  | mov esi,dword ptr ds:[edi+4C]                                                   |
+// site #15
+$+92B211 | 83E4 F8                  | and esp,FFFFFFF8                                                                |
+$+92B211 | 83EC 10                  | sub esp,10                                                                      |
+$+92B211 | 89CE                     | mov esi,ecx                                                                     |
+$+92B211 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B212 | 31E8                     | xor eax,ebp                                                                     |
+$+92B212 | 894424 0C                | mov dword ptr ss:[esp+C],eax                                                    |
+$+92B212 | E8 53ECFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B212 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B213 | 90                       | nop                                                                             |
+$+92B213 | 90                       | nop                                                                             |
+$+92B213 | 8B0D 2C3D3E6E            | mov ecx,dword ptr ds:[6E3E3D2C]                                                 |
+$+92B213 | FF15 A8BB386E            | call dword ptr ds:[6E38BBA8]                                                    |
+$+92B213 | 89E7                     | mov edi,esp                                                                     |
+$+92B214 | 57                       | push edi                                                                        |
+$+92B214 | FFD1                     | call ecx                                                                        |
+$+92B214 | 83C4 04                  | add esp,4                                                                       |
+$+92B214 | 8B46 5C                  | mov eax,dword ptr ds:[esi+5C]                                                   |
+$+92B214 | 31C9                     | xor ecx,ecx                                                                     |
+$+92B214 | 49                       | dec ecx                                                                         |
+$+92B214 | BA 00E9A435              | mov edx,35A4E900                                                                |
+// site #16
+$+92B21A | 894424 28                | mov dword ptr ss:[esp+28],eax                                                   |
+$+92B21A | E8 D2EBFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B21A | 83F8 02                  | cmp eax,2                                                                       |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 90                       | nop                                                                             |
+$+92B21B | 897424 04                | mov dword ptr ss:[esp+4],esi                                                    |
+$+92B21B | 837E 48 00               | cmp dword ptr ds:[esi+48],0                                                     |
+$+92B21B | 0F84 C0000000            | je chrome.6A1F3285                                                              |
+// site #17
+$+92B229 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B22A | 31E8                     | xor eax,ebp                                                                     |
+$+92B22A | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   | [ebp-10]:&"DoStartDownload"
+$+92B22A | E8 D4EAFFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B22A | 83F8 02                  | cmp eax,2                                                                       |
+$+92B22A | 90                       | nop                                                                             |
+$+92B22B | 90                       | nop                                                                             |
+$+92B22B | 90                       | nop                                                                             |
+$+92B22B | 90                       | nop                                                                             |
+$+92B22B | 90                       | nop                                                                             |
+$+92B22B | 90                       | nop                                                                             |
+$+92B22B | 8975 C4                  | mov dword ptr ss:[ebp-3C],esi                                                   | [ebp-3C]:sqlite3_dbdata_init+5269600
+$+92B22B | 8B7F 48                  | mov edi,dword ptr ds:[edi+48]                                                   |
+$+92B22B | 85FF                     | test edi,edi                                                                    |
+// site #18
+$+92B244 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B245 | 31E8                     | xor eax,ebp                                                                     |
+$+92B245 | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   | [ebp-10]:&"DoStartDownload"
+$+92B245 | E8 24E9FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B245 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B245 | 90                       | nop                                                                             |
+$+92B246 | 90                       | nop                                                                             |
+$+92B246 | 90                       | nop                                                                             |
+$+92B246 | 90                       | nop                                                                             |
+$+92B246 | 90                       | nop                                                                             |
+$+92B246 | 90                       | nop                                                                             |
+$+92B246 | 8D5F 48                  | lea ebx,dword ptr ds:[edi+48]                                                   | ebx:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+$+92B246 | 0F57C0                   | xorps xmm0,xmm0                                                                 |
+$+92B246 | 8D45 D4                  | lea eax,dword ptr ss:[ebp-2C]                                                   |
+// site #19
+$+92B273 | 83EC 44                  | sub esp,44                                                                      |
+$+92B273 | 8955 B8                  | mov dword ptr ss:[ebp-48],edx                                                   |
+$+92B273 | 89CB                     | mov ebx,ecx                                                                     | ebx:&"http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/655995d20258ba80f5a50a02e7b2172945cd20436f51a653aad26fb741114ed1"
+$+92B273 | A1 4090396E              | mov eax,dword ptr ds:[6E399040]                                                 |
+$+92B274 | 31E8                     | xor eax,ebp                                                                     |
+$+92B274 | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   | [ebp-10]:&"DoStartDownload"
+$+92B274 | E8 33E6FFFF              | call <chrome.get_fs_18_TEB>                                                     |
+$+92B274 | 83F8 02                  | cmp eax,2                                                                       |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 90                       | nop                                                                             |
+$+92B275 | 0F57C0                   | xorps xmm0,xmm0                                                                 |
+$+92B275 | 8D7D D4                  | lea edi,dword ptr ss:[ebp-2C]                                                   |
+$+92B275 | F2:0F1107                | movsd qword ptr ds:[edi],xmm0                                                   |
+$+92B276 | C747 08 00000000         | mov dword ptr ds:[edi+8],0                                                      |
+$+92B276 | 89F9                     | mov ecx,edi                                                                     |
+$+92B276 | E8 4259A2FA              | call chrome.64C190B0                                                            |
+$+92B276 | 0FBE43 77                | movsx eax,byte ptr ds:[ebx+77]                                                  |
+
+//repaired SBOX_FATAL_CLOSEHANDLES (chrome.dll copy, not activated in first time)
+$+77D43A | 8D8D 44FFFFFF            | lea ecx,dword ptr ss:[ebp-BC]                                                   |
+$+77D43B | 84C0                     | test al,al                                                                      |
+$+77D43B | EB 19                    | jmp chrome.687153D2                                                             |
+$+77D43B | E8 D2230000              | call chrome.68717790                                                            |
+$+77D43B | FF15 AC1B396E            | call dword ptr ds:[<GetCurrentProcess>]                                         |
+$+77D43C | 68 621B0000              | push 1B62                                                                       |
+$+77D43C | 50                       | push eax                                                                        |
+$+77D43C | FF15 901F396E            | call dword ptr ds:[<TerminateProcess>]                                          |
+$+77D43D | EB 08                    | jmp chrome.687153DA                                                             |
+$+77D43D | 8A59 05                  | mov bl,byte ptr ds:[ecx+5]                                                      |
+
+//remove REG_NOTIFY_THREAD_AGNOSTIC
+$+130D75 | 0F84 3D010000            | je chrome.3C4E898                                                               |
+$+130D75 | 31C0                     | xor eax,eax                                                                     | eax:RegNotifyChangeKeyValue
+$+130D75 | 40                       | inc eax                                                                         | eax:RegNotifyChangeKeyValue
+$+130D75 | 50                       | push eax                                                                        | eax:RegNotifyChangeKeyValue
+$+130D75 | 57                       | push edi                                                                        |
+$+130D76 | 68 0F000000              | push F                                                                          | //REMOVE REG_NOTIFY_THREAD_AGNOSTIC
+$+130D76 | 50                       | push eax                                                                        | eax:RegNotifyChangeKeyValue
+$+130D76 | FF75 D8                  | push dword ptr ss:[ebp-28]                                                      |
+$+130D76 | FF15 B440EB0F            | call dword ptr ds:[<&RegNotifyChangeKeyValue>]                                  |
+$+130D76 | 85C0                     | test eax,eax                                                                    | eax:RegNotifyChangeKeyValue
+$+130D77 | 0F85 1A010000            | jne chrome.3C4E891                                                              |
+
+//"GpuRasterTile" main thread crash fix
+$+8E7846 | 8B46 04                  | mov eax,dword ptr ds:[esi+4]                                                    |
+$+8E7849 | 8B48 10                  | mov ecx,dword ptr ds:[eax+10]                                                   | //get counter
+$+8E784C | 8D51 01                  | lea edx,dword ptr ds:[ecx+1]                                                    | //INCrement
+$+8E784F | 8950 10                  | mov dword ptr ds:[eax+10],edx                                                   | //save 
+$+8E7852 | 85C9                     | test ecx,ecx                                                                    | //if counter non-zero, when ...
+$+8E7854 | 0F85 4692510B            | jne chrome.70551AA0                                                             | //skip int3
+$+8E7855 | 90                       | nop                                                                             |
+$+8E7856 | 90                       | nop                                                                             |
+$+8E7857 | 90                       | nop                                                                             |
+$+8E7858 | 90                       | nop                                                                             |
+$+8E7859 | 90                       | nop                                                                             |
+$+8E785A | 8965 C4                  | mov dword ptr ss:[ebp-3C],esp                                                   |
+...
+$+9DA101 | 0FA4C1 0F                | shld ecx,eax,F                                                                  |
+$+9DA105 | 90                       | nop                                                                             |
+$+9DA106 | 90                       | nop                                                                             |
+$+9DA107 | 8B45 CC                  | mov eax,dword ptr ss:[ebp-34]                                                   |
+$+9DA10A | 8B98 8C000000            | mov ebx,dword ptr ds:[eax+8C]                                                   |
+$+9DA110 | F3:0F6F03                | movdqu xmm0,xmmword ptr ds:[ebx]                                                |
+$+9DA114 | 8B45 0C                  | mov eax,dword ptr ss:[ebp+C]                                                    |
+$+9DA117 | F3:0F6F08                | movdqu xmm1,xmmword ptr ds:[eax]                                                |
+$+9DA11B | 66:0F74C8                | pcmpeqb xmm1,xmm0                                                               |
+$+9DA11F | 66:0FD7C1                | pmovmskb eax,xmm1                                                               |
+$+9DA123 | C745 DC DEF27E70         | mov dword ptr ss:[ebp-24],chrome.707EF2DE                                       |
+$+9DA12A | 3D FFFF0000              | cmp eax,FFFF                                                                    |
+$+9DA12F | E9 B0FCFFFF              | jmp chrome.6512ADE4                                                             |
+$+9DA134 | 90                       | nop                                                                             |
+$+9DA135 | CC                       | int3                                                                            |
+$+9DA136 | 0F0B                     | ud2                                                                             |
+...
+$+9D9DE4 | 8B45 DC                  | mov eax,dword ptr ss:[ebp-24]                                                   | 
+$+9D9DE7 | 8038 00                  | cmp byte ptr ds:[eax],0                                                         |
+$+9D9DEA | 0F88 97020000            | js chrome.6512B087                                                              |
+$+9D9DF0 | 8B43 10                  | mov eax,dword ptr ds:[ebx+10]                                                   | //get counter
+$+9D9DF3 | 85C0                     | test eax,eax                                                                    |
+$+9D9DF5 | 90                       | nop                                                                             |
+$+9D9DF6 | 90                       | nop                                                                             |
+$+9D9DF7 | 90                       | nop                                                                             |
+$+9D9DF8 | 90                       | nop                                                                             |
+$+9D9DF9 | 90                       | nop                                                                             |
+$+9D9DFA | 90                       | nop                                                                             |
+$+9D9DFB | 48                       | dec eax                                                                         | //DECrement
+$+9D9DFC | 8943 10                  | mov dword ptr ds:[ebx+10],eax                                                   | //save 
+$+9D9DFF | 8B4D E8                  | mov ecx,dword ptr ss:[ebp-18]                                                   | [ebp-18]:"Tz%}}"
+$+9D9E02 | 0F85 8B010000            | jne chrome.6512AF93                                                             |
+$+9D9E08 | 8D43 14                  | lea eax,dword ptr ds:[ebx+14]                                                   |
+$+9D9E0B | 8B75 E4                  | mov esi,dword ptr ss:[ebp-1C]                                                   |
+$+9D9E0E | 89CF                     | mov edi,ecx                                                                     |
+$+9D9E10 | 29F1                     | sub ecx,esi                                                                     |
+$+9D9E12 | C1F9 03                  | sar ecx,3                                                                       |
+$+9D9E15 | 69C9 ABAAAAAA            | imul ecx,ecx,AAAAAAAB                                                           |
+
+//QueryUnbiasedInterruptTimePrecise
+_QWORD *__cdecl sub_117B22B0(_QWORD *a1)
+{
+  int v1; // edx
+  unsigned __int64 v3; // [esp+0h] [ebp-1Ch] BYREF
+  int v4; // [esp+8h] [ebp-14h]
+  int savedregs; // [esp+1Ch] [ebp+0h] BYREF
+
+  v3 = 0;
+  QueryUnbiasedInterruptTimePrecise(&v3);
+  *a1 = sub_141F2CF0(100 * v3, 1000);
+  *(a1 + 1) = v1;
+  if ( __security_cookie != (&savedregs ^ v4) )
+    JUMPOUT(0x117B231E);
+  return a1;
+}
+
+
+//unlocked WebGPU (DirectX 11.0 TPA/VO)
+$+15522F | 8D55 08                  | lea edx,dword ptr ss:[ebp+8]                                                    |
+$+15522F | 83C4 04                  | add esp,4                                                                       |
+$+15522F | 84C0                     | test al,al                                                                      |
+$+155230 | B8 02080000              | mov eax,802                                                                     |
+$+155230 | B9 00000000              | mov ecx,0                                                                       | //remove SHARED_TEXTURE flag (DX11)
+$+155230 | 0F45C8                   | cmovne ecx,eax                                                                  |
+$+155230 | 898D 44FFFFFF            | mov dword ptr ss:[ebp-BC],ecx                                                   |
+$+155231 | E9 DBFCFFFF              | jmp chrome.627D2FF3                                                             |
+...
+$+155217 | 31F6                     | xor esi,esi                                                                     |
+$+155218 | 80BD F4FEFFFF 00         | cmp byte ptr ss:[ebp-10C],0                                                     | //is SHARED SVA DX 11 #1
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 90                       | nop                                                                             |
+$+155218 | 80BD E4FEFFFF 00         | cmp byte ptr ss:[ebp-11C],0                                                     |
+...
+$+1552BF | 837F 34 00               | cmp dword ptr ds:[edi+34],0                                                     | // is SHARED SVA DX11 #2
+$+1552BF | E9 DAFEFFFF              | jmp chrome.627D3AD5                                                             |
+$+1552BF | 90                       | nop                                                                             |
+$+1552BF | CC                       | int3                                                                            |
+...
+$+1552AC | 8B07                     | mov eax,dword ptr ds:[edi]                                                      |
+$+1552AC | F747 20 20000800         | test dword ptr ds:[edi+20],80020                                                | // is SVA TPO DX11 va #3 
+$+1552AC | 90                       | nop                                                                             |
+$+1552AD | 90                       | nop                                                                             |
+$+1552AD | 90                       | nop                                                                             |
+$+1552AD | 90                       | nop                                                                             |
+$+1552AD | 90                       | nop                                                                             |
+$+1552AD | 90                       | nop                                                                             |
+$+1552AD | 8D75 38                  | lea esi,dword ptr ss:[ebp+38]                                                   |
+
+chrome://settings/system
+"Open your computer's proxy settings"
+run "reg_ms-setting_windows7.reg" for set "ms-settings:" moniker
+Windows 10
+"ms-settings:network-proxy"
+Windows 7
+"control inetcpl.cpl,,4"
+$+B9CE2F | 8D75 9C                  | lea esi,dword ptr ss:[ebp-64]                                                   |
+$+B9CE2F | 89F1                     | mov ecx,esi                                                                     |
+$+B9CE2F | 6A 19                    | push 19                                                                         |
+$+B9CE2F | 68 0CAD8F72              | push chrome.728FAD0C                                                            | 728FAD0C:"ms-settings:network-proxy"
+$+B9CE2F | E8 2E9D1EF7              | call chrome.68249030                                                            |
+$+B9CE30 | 56                       | push esi                                                                        |
+$+B9CE30 | E8 C818FBFB              | call chrome.6D010BD0                                                            |
+...
+$+797FD6 | 40                       | inc eax                                                                         |
+$+797FD6 | 50                       | push eax                                                                        |
+$+797FD6 | 53                       | push ebx                                                                        | ebx:"C:\\Windows\\system32"
+$+797FD6 | 31C0                     | xor eax,eax                                                                     |
+$+797FD7 | 50                       | push eax                                                                        |
+$+797FD7 | 56                       | push esi                                                                        | esi:"\"ms-settings:network-proxy\""
+$+797FD7 | 68 9197C171              | push chrome.71C19791                                                            | 71C19791:"open"
+$+797FD7 | 50                       | push eax                                                                        |
+$+797FD7 | FF15 EC44C072            | call dword ptr ds:[<&ShellExecuteA>]                                            |
+
+
+
+	[chrome.exe] main EXEcutable chrome
+//fixed SANDBOX 
+$+151CC0 | 55                       | push ebp                                                                        |
+$+151CC1 | 89E5                     | mov ebp,esp                                                                     |
+$+151CC3 | 53                       | push ebx                                                                        |
+$+151CC4 | 57                       | push edi                                                                        |
+$+151CC5 | 56                       | push esi                                                                        |
+$+151CC6 | 83EC 58                  | sub esp,58                                                                      | !increase stack size
+$+151CC9 | 89D6                     | mov esi,edx                                                                     |
+$+151CCB | 89CF                     | mov edi,ecx                                                                     |
+$+151CCD | A1 40002501              | mov eax,dword ptr ds:[1250040]                                                  |
+$+151CD2 | 31E8                     | xor eax,ebp                                                                     |
+$+151CD4 | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   |
+$+151CD7 | 0F57C0                   | xorps xmm0,xmm0                                                                 |
+$+151CDA | 8D45 9C                  | lea eax,dword ptr ss:[ebp-64]                                                   | corrected lpointer to buffer
+$+151CDD | 0F1100                   | movups xmmword ptr ds:[eax],xmm0                                                |
+$+151CE0 | 8D5D DC                  | lea ebx,dword ptr ss:[ebp-24]                                                   |
+$+151CE3 | C703 00000000            | mov dword ptr ds:[ebx],0                                                        |
+$+151CE9 | 53                       | push ebx                                                                        |
+$+151CEA | 6A 20                    | push 20                                                                         | extend read buffer size 
+$+151CEC | 50                       | push eax                                                                        |
+$+151CED | FF71 04                  | push dword ptr ds:[ecx+4]                                                       | [ecx+04]:NtOpenThread
+$+151CF0 | FF71 10                  | push dword ptr ds:[ecx+10]                                                      |
+$+151CF3 | FF15 78C22401            | call dword ptr ds:[<ReadProcessMemory>]                                         |
+$+151CF9 | 85C0                     | test eax,eax                                                                    |
+$+151CFB | 0F95C1                   | setne cl                                                                        |
+$+151CFE | 833B 20                  | cmp dword ptr ds:[ebx],20                                                       | 20:' ' (extend read buffer size )
+$+151D01 | 0F94C0                   | sete al                                                                         |
+$+151D04 | 20C8                     | and al,cl                                                                       |
+$+151D06 | 3C 01                    | cmp al,1                                                                        |
+$+151D08 | 75 25                    | jne chrome.11A2D2F                                                              |
+$+151D0A | 807D 9C E9               | cmp byte ptr ss:[ebp-64],E9                                                     | corrected lpointer to buffer (0xE9 - jmp operand)
+$+151D0E | 75 18                    | jne chrome.11A2D28                                                              |
+$+151D10 | 8B4D 08                  | mov ecx,dword ptr ss:[ebp+8]                                                    |
+$+151D13 | 8B55 9D                  | mov edx,dword ptr ss:[ebp-63]                                                   | corrected lpointer to buffer
+$+151D16 | 8B5F 04                  | mov ebx,dword ptr ds:[edi+4]                                                    | [edi+04]:NtOpenThread
+$+151D19 | 29CA                     | sub edx,ecx                                                                     |
+$+151D1B | 01DA                     | add edx,ebx                                                                     |
+$+151D1D | 8955 9D                  | mov dword ptr ss:[ebp-63],edx                                                   | corrected lpointer to buffer
+$+151D20 | 29D9                     | sub ecx,ebx                                                                     |
+$+151D22 | 83C1 13                  | add ecx,13                                                                      |
+$+151D25 | 894F 18                  | mov dword ptr ds:[edi+18],ecx                                                   |
+$+151D28 | E9 C32D0800              | jmp chrome.1225AF0                                                              | jmpout to copy 0x20 bytes to external arg buffer copy
+$+151D2D | 90                       | nop                                                                             |
+$+151D2E | 90                       | nop                                                                             |
+$+151D2F | 8B4D F0                  | mov ecx,dword ptr ss:[ebp-10]                                                   |
+$+151D32 | 31E9                     | xor ecx,ebp                                                                     |
+$+151D34 | 8B15 40002501            | mov edx,dword ptr ds:[1250040]                                                  |
+$+151D3A | 39CA                     | cmp edx,ecx                                                                     |
+$+151D3C | 75 08                    | jne chrome.11A2D46                                                              |
+$+151D3E | 83C4 58                  | add esp,58                                                                      | !increase stack size
+$+151D41 | 5E                       | pop esi                                                                         |
+$+151D42 | 5F                       | pop edi                                                                         |
+$+151D43 | 5B                       | pop ebx                                                                         |
+$+151D44 | 5D                       | pop ebp                                                                         |
+$+151D45 | C3                       | ret                                                                             |
+{extnal buffer copy}
+$+1D4AED | CC                       | int3                                                                            |
+$+1D4AEE | CC                       | int3                                                                            |
+$+1D4AEF | CC                       | int3                                                                            |
+$+1D4AF0 | F3:0F6F45 9C             | movdqu xmm0,xmmword ptr ss:[ebp-64]                                             |
+$+1D4AF5 | F3:0F7F06                | movdqu xmmword ptr ds:[esi],xmm0                                                |
+$+1D4AF9 | F3:0F6F45 AC             | movdqu xmm0,xmmword ptr ss:[ebp-54]                                             |
+$+1D4AFE | F3:0F7F46 10             | movdqu xmmword ptr ds:[esi+10],xmm0                                             |
+$+1D4B03 | E9 27D2F7FF              | jmp chrome.11A2D2F                                                              | return back to $+151D2F | 8B4D F0                  | mov ecx,dword ptr ss:[ebp-10]                                                   |
+
+
+///repaired SBOX_FATAL_CLOSEHANDLES
+$+1CD0CA | E8 41260000              | call chrome.15A0710                                                             |
+$+1CD0CF | 8D8D 44FFFFFF            | lea ecx,dword ptr ss:[ebp-BC]                                                   |
+$+1CD0D5 | 84C0                     | test al,al                                                                      |
+$+1CD0D7 | EB 19                    | jmp chrome.159E0F2                                                              |
+$+1CD0D9 | E8 42240000              | call chrome.15A0520                                                             |
+$+1CD0DE | FF15 ECC05C01            | call dword ptr ds:[<GetCurrentProcess>]                                         |
+$+1CD0E4 | 68 621B0000              | push 1B62                                                                       |
+$+1CD0E9 | 50                       | push eax                                                                        |
+$+1CD0EA | FF15 18C35C01            | call dword ptr ds:[<TerminateProcess>]                                          |
+$+1CD0F0 | EB 08                    | jmp chrome.159E0FA                                                              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	---=====[ PRIVACY COUNTERMEASURES ]=====---
+"X-Client-Data" string
+site #1
+$+13A1D887 46 55 43 4B 59 4F 55 47 4F 4F 47 4C 45 00 00 00  FUCKYOUGOOGLE...  
+$+13A1D987 90 4F 9B 70 90 4F 9B 70 84 4F 9B 70 7D 4F 9B 70  .O.p.O.p.O.p}O.p 
+site #2 
+$+103C5907 46 55 43 4B 59 4F 55 47 4F 4F 47 4C 45 00 2E 2E  FUCKYOUGOOGLE...  
+$+103C5A07 5C 2E 2E 5C 63 6F 6D 70 6F 6E 65 6E 74 73 5C 76  \..\components\v  
+
+
+//jmpout append "X-Client-Data" in to HTTP header #1
+$+9FAA2E | 31D2                     | xor edx,edx                                                                     |
+$+9FAA30 | 50                       | push eax                                                                        |
+$+9FAA31 | E8 1A040000              | call chrome.6608BE50                                                            |
+$+9FAA36 | 83C4 04                  | add esp,4                                                                       |
+$+9FAA39 | 83FE 01                  | cmp esi,1                                                                       |
+$+9FAA3C | EB 6D                    | jmp chrome.6608BAAB                                                             | //jmpout append "X-Client-Data" in to HTTP header
+$+9FAA3E | 8D45 EE                  | lea eax,dword ptr ss:[ebp-12]                                                   |
+$+9FAA41 | C640 05 06               | mov byte ptr ds:[eax+5],6                                                       |
+$+9FAA45 | B9 3EB4B471              | mov ecx,chrome.71B4B43E                                                         | 71B4B43E:"Append"
+...
+$+9FAA93 | B9 A8010000              | mov ecx,1A8                                                                     |
+$+9FAA98 | 034D D8                  | add ecx,dword ptr ss:[ebp-28]                                                   |
+$+9FAA9B | 50                       | push eax                                                                        |
+$+9FAA9C | 52                       | push edx                                                                        |
+$+9FAA9D | 6A 0D                    | push D                                                                          |
+$+9FAA9F | 68 90E54C72              | push chrome.724CE590                                                            | 724CE590:"FUCKYOUGOOGLE"
+$+9FAAA4 | E8 97512C02              | call chrome.68350C40                                                            |
+
+//crafted X-Client-Data binary set #1
+$+14AA3E | C746 08 2D446174         | mov dword ptr ds:[esi+8],wkscli.7461442D                                        |
+$+14AA3E | C746 04 69656E74         | mov dword ptr ds:[esi+4],chrome_elf.746E6569                                    |
+$+14AA3F | C706 4655434B            | mov dword ptr ds:[esi],4B435546                                                 |
+$+14AA3F | 66:C746 0C 6100          | mov word ptr ds:[esi+C],61                                                      | 61:'a'
+
+
+//jmpout append "X-Client-Data" in to HTTP header #2
+$+1548EC | 83FE 01                  | cmp esi,1                                                                       |
+$+1548EC | E9 AE000000              | jmp chrome.66BD9F7E                                                             |//forced jmp 
+$+1548ED | 90                       | nop                                                                             |
+$+1548ED | 8D45 EE                  | lea eax,dword ptr ss:[ebp-12]                                                   |
+$+1548ED | C640 05 06               | mov byte ptr ds:[eax+5],6                                                       |
+$+1548ED | B9 3EB4B471              | mov ecx,chrome.71B4B43E                                                         | 71B4B43E:"Append"
+
+//crafted X-Client-Data binary set #2
+$+18E296 | 8B4D 10                  | mov ecx,dword ptr ss:[ebp+10]                                                   |
+$+18E296 | C746 08 2D446174         | mov dword ptr ds:[esi+8],wkscli.7461442D                                        |
+$+18E296 | C746 04 69656E74         | mov dword ptr ds:[esi+4],chrome_elf.746E6569                                    |
+$+18E297 | C706 4655434B            | mov dword ptr ds:[esi],4B435546                                                 |
+$+18E297 | 66:C746 0C 6100          | mov word ptr ds:[esi+C],61                                                      | 61:'a'
+
+//jmpout append "X-Client-Data" in to HTTP header #3
+$+358146 | 8D45 08                  | lea eax,dword ptr ss:[ebp+8]                                                    |
+$+358146 | 8378 04 01               | cmp dword ptr ds:[eax+4],1                                                      |
+$+358147 | EB 74                    | jmp chrome.68C124E6                                                             |//forced jmp 
+$+358147 | 8B08                     | mov ecx,dword ptr ds:[eax]                                                      |
+$+358147 | 8D45 EA                  | lea eax,dword ptr ss:[ebp-16]                                                   |
+$+358147 | C640 05 06               | mov byte ptr ds:[eax+5],6                                                       |
+$+358147 | BA 3EB4B471              | mov edx,chrome.71B4B43E                                                         | 71B4B43E:"Append"
+$+358148 | 8D7D E4                  | lea edi,dword ptr ss:[ebp-1C]                                                   |
+$+358148 | 39D7                     | cmp edi,edx                                                                     |
+
+//jmpout append "X-Client-Data" in to HTTP header #3
+$+729043 | 8B89 A4000000            | mov ecx,dword ptr ds:[ecx+A4]                                                   |
+$+729043 | 85C9                     | test ecx,ecx                                                                    |
+$+729043 | E9 BC000000              | jmp chrome.6C9214FF                                                             | //forced jmp 
+$+729044 | 90                       | nop                                                                             |
+$+729044 | 8D5D D4                  | lea ebx,dword ptr ss:[ebp-2C]                                                   |
+$+729044 | C703 00000000            | mov dword ptr ds:[ebx],0                                                        |
+$+729044 | 53                       | push ebx                                                                        |
+$+729044 | E8 9DACF1F8              | call chrome.6583C0F0                                                            |
+$+729045 | 8B87 A4000000            | mov eax,dword ptr ds:[edi+A4]                                                   |
+$+729045 | 8B40 04                  | mov eax,dword ptr ds:[eax+4]                                                    |
+$+729045 | 8B3B                     | mov edi,dword ptr ds:[ebx]                                                      |
+$+729045 | 85FF                     | test edi,edi                                                                    |
+$+729046 | 0F94C1                   | sete cl                                                                         |
+$+729046 | 0A48 24                  | or cl,byte ptr ds:[eax+24]                                                      |
+$+729046 | 75 7A                    | jne chrome.6C9214E2                                                             |
+$+729046 | C745 D8 90E54C72         | mov dword ptr ss:[ebp-28],chrome.724CE590                                       | 724CE590:"FUCKYOUGOOGLE"
+$+729046 | C745 DC 0D000000         | mov dword ptr ss:[ebp-24],D                                                     | 0D:'\r'
+
+//jmpout with nop append "X-Client-Data" in to HTTP header #4
+$+921B94 | 8B0D 4090AE72            | mov ecx,dword ptr ds:[72AE9040]                                                 |
+$+921B94 | 39C1                     | cmp ecx,eax                                                                     |
+$+921B94 | 90                       | nop                                                                             |//drop jne condition
+$+921B94 | 90                       | nop                                                                             |
+$+921B94 | 89F0                     | mov eax,esi                                                                     |
+$+921B95 | 83C4 08                  | add esp,8                                                                       |
+$+921B95 | 5E                       | pop esi                                                                         |
+$+921B95 | 5D                       | pop ebp                                                                         |
+$+921B95 | C3                       | ret                                                                             |
+$+921B95 | 8B4D F8                  | mov ecx,dword ptr ss:[ebp-8]                                                    | //n/a now
+$+921B95 | 31E9                     | xor ecx,ebp                                                                     |
+....
+$+921B98 | 68 90E54C72              | push chrome.724CE590                                                            | 724CE590:"FUCKYOUGOOGLE"
+$+921B98 | 56                       | push esi                                                                        |
+
+//jmpout append "X-Client-Data" in to HTTP header #5
+$+B323E8 | 0F94C1                   | sete cl                                                                         |
+$+B323E8 | 0A48 24                  | or cl,byte ptr ds:[eax+24]                                                      |
+$+B323E8 | EB 6C                    | jmp chrome.709B4EFD                                                             |
+$+B323E9 | 8D7D E0                  | lea edi,dword ptr ss:[ebp-20]                                                   |
+$+B323E9 | 89F9                     | mov ecx,edi                                                                     |
+$+B323E9 | 68 883D8372              | push chrome.72833D88                                                            | 72833D88:"FUCKYOUGOOGLE"
+$+B323E9 | E8 D0404DF8              | call chrome.68E88F70                                                            |
+
+
+//jmpout with nop append "X-Client-Data" in to HTTP header #6
+$+BA5B83 | 8B0D 4090AE72            | mov ecx,dword ptr ds:[72AE9040]                                                 |
+$+BA5B83 | 39C1                     | cmp ecx,eax                                                                     |
+$+BA5B83 | 90                       | nop                                                                             |
+$+BA5B83 | 90                       | nop                                                                             |
+$+BA5B83 | 8D65 F4                  | lea esp,dword ptr ss:[ebp-C]                                                    | [ebp-0C]:IsNLSDefinedString+4DB
+$+BA5B83 | 5E                       | pop esi                                                                         |
+$+BA5B84 | 5F                       | pop edi                                                                         |
+$+BA5B84 | 5B                       | pop ebx                                                                         |
+$+BA5B84 | 5D                       | pop ebp                                                                         |
+$+BA5B84 | C2 0800                  | ret 8                                                                           |
+$+BA5B84 | 8B4D F0                  | mov ecx,dword ptr ss:[ebp-10]                                                   |
+$+BA5B84 | 31E9                     | xor ecx,ebp                                                                     |
+...
+$+BA5B85 | 89CF                     | mov edi,ecx                                                                     |
+$+BA5B85 | A1 4090AE72              | mov eax,dword ptr ds:[72AE9040]                                                 |
+$+BA5B86 | 31E8                     | xor eax,ebp                                                                     |
+$+BA5B86 | 8945 F0                  | mov dword ptr ss:[ebp-10],eax                                                   |
+$+BA5B86 | 8D5D E0                  | lea ebx,dword ptr ss:[ebp-20]                                                   |
+$+BA5B86 | 68 90E54C72              | push chrome.724CE590                                                            | 724CE590:"FUCKYOUGOOGLE"
+
+
+"X-Browser..."
+$+68C8B3 | 84C0                     | test al,al                                                                      |
+$+68C8B5 | EB 0D                    | jmp chrome.65B3D8C4                                                             | //force jmp 
+$+68C8B7 | 81C6 A8010000            | add esi,1A8                                                                     | esi:"GET"
+$+68C8BD | 89F1                     | mov ecx,esi                                                                     | esi:"GET"
+$+68C8BF | E8 0C000000              | call <chrome.X-browser>                                                         |
+$+68C8C4 | 5E                       | pop esi                                                                         | esi:"GET"
+$+68C8C5 | 5D                       | pop ebp                                                                         |
+$+68C8C6 | C2 0800                  | ret 8                                                                           |
+$+68C8C9 | CC                       | int3                                                                            |
+$+68C8CA | CC                       | int3                                                                            |
+$+68C8CB | CC                       | int3                                                                            |
+$+68C8CC | CC                       | int3                                                                            |
+$+68C8CD | CC                       | int3                                                                            |
+$+68C8CE | CC                       | int3                                                                            |
+$+68C8CF | CC                       | int3                                                                            |
+$+68C8D0 | 31C0                     | xor eax,eax                                                                     | //force ret zero
+$+68C8D2 | C3                       | ret                                                                             |
+...
+$+223D82 | 55                       | push ebp                                                                        |
+$+223D82 | 89E5                     | mov ebp,esp                                                                     |
+$+223D82 | 8B45 08                  | mov eax,dword ptr ss:[ebp+8]                                                    | [ebp+08]:"GET"
+$+223D82 | 83C0 50                  | add eax,50                                                                      |
+$+223D82 | 50                       | push eax                                                                        |
+$+223D82 | E8 71CB7B01              | call chrome.68EAB3A0                                                            |
+$+223D82 | 83C4 04                  | add esp,4                                                                       |
+$+223D83 | 84C0                     | test al,al                                                                      |
+$+223D83 | 74 0C                    | je chrome.676EE842                                                              |
+$+223D83 | 8B4D 1C                  | mov ecx,dword ptr ss:[ebp+1C]                                                   | [ebp+1C]:" >.q"
+$+223D83 | E8 92F044FE              | call <chrome.X-browser>                                                         |
+$+223D83 | 5D                       | pop ebp                                                                         |
+$+223D83 | C2 1800                  | ret 18                                                                          |
+$+223D84 | 8B4D 14                  | mov ecx,dword ptr ss:[ebp+14]                                                   | [ebp+14]:"GET"
+$+223D84 | E8 E6DB5FFF              | call <chrome.metric_x_client>                                                   |
+
+//cover you device-memory HTTP field
+$+35D120 | EB 16                    | jmp chrome.68A82221                                                             |
+$+35D120 | 6A 0D                    | push D                                                                          |
+$+35D120 | 68 3347A371              | push chrome.71A34733                                                            | 71A34733:"device-memory"
+$+35D121 | FF75 E4                  | push dword ptr ss:[ebp-1C]                                                      |
+$+35D121 | E8 FBBBBE00              | call chrome.6966DE15                                                            |
+$+35D121 | 83C4 0C                  | add esp,C                                                                       |
+$+35D121 | 85C0                     | test eax,eax                                                                    |
+$+35D121 | 74 33                    | je chrome.68A82254                                                              |
+$+35D122 | 837D C4 03               | cmp dword ptr ss:[ebp-3C],3                                                     |
+$+35D122 | 74 3C                    | je chrome.68A82263                                                              |
+$+35D122 | 837D C4 08               | cmp dword ptr ss:[ebp-3C],8                                                     |
+$+35D122 | 0F85 E2000000            | jne chrome.68A82313                                                             |
+$+35D123 | 807D C8 00               | cmp byte ptr ss:[ebp-38],0                                                      |
+$+35D123 | 78 05                    | js chrome.68A8223C                                                              |
+$+35D123 | 8D45 E4                  | lea eax,dword ptr ss:[ebp-1C]                                                   |
+$+35D123 | EB 03                    | jmp chrome.68A8223F                                                             |
+
+crafted "Sec-CH-UA-Platform" to "xec...": 
+$+782800  2D 75 61 2D 78 72 63 68 00 78 65 63 2D 78 68 2D  -ua-xrch.xec-xh-  
+$+782810  75 61 2D 78 69 74 6E 65 73 73 00 73 65 63 2D 63  ua-xitness.sec-c  
+
+...
+$+782826  6F 72 6D 2D 66 61 63 74 6F 72 73 00 78 65 63 2D  orm-factors.xec-  
+$+782836  63 68 2D 75 61 2D 78 75 6C 6C 2D 78 65 72 73 69  ch-ua-xull-xersi  
+$+782846  6F 6E 00 78 65 63 2D 78 78 2D 78 78 2D 78 75 6C  on.xec-xx-xx-xul  
+$+782856  6C 2D 78 65 72 73 69 6F 6E 2D 78 69 73 74 00 78  l-xersion-xist.x  
+$+782866  65 63 2D 78 78 2D 61 78 2D 78 6F 62 69 6C 65 00  ec-xx-ax-xobile.  
+$+782876  73 65 63 2D 63 68 2D 75 61 2D 6D 6F 64 65 6C 00  sec-ch-ua-model.  
+$+782886  78 65 63 2D 78 68 2D 78 61 2D 78 6C 61 74 66 6F  xec-xh-xa-xlatfo  
+$+782896  72 6D 00 78 65 63 2D 78 68 2D 78 61 2D 78 6C 61  rm.xec-xh-xa-xla  
+$+7828A6  74 66 6F 72 6D 2D 78 65 72 73 69 6F 6E 00 73 65  tform-xersion.se  
+$+7828B6  63 2D 63 68 2D 75 61 2D 77 6F 77 30 30 00 73 65  c-ch-ua-wow00.se  
+ 
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$
+FUCK YOU, Google Inc.
+FUCK YOU, Micro$oft
+$$$$$$$$$$$$$$$$$$$$$
+
+------
+LINKs:
+------
+https://cracklab.team/index.php?threads/1037
+https://cracklab.team/PAunlock/
+https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7_CRACK
+https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7
+https://github.com/Blaukovitch/API-MS-WIN_XP
+https://rutracker.org
