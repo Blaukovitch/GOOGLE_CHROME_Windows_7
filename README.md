@@ -39,5 +39,5 @@ https://trackerninja.codeberg.page/post/latest-google-chrome-officially-cracked-
 # Chrome Enterprise Premium 
 Please, drop to me!  Private message in _cracklab.team_ forum - i send qTox number.  
 
-<img width="609" height="609" alt="image" src="https://github.com/user-attachments/assets/adef7ff4-31b9-4e6d-9984-6df008cd355f" />
+<img width="307" height="307" alt="image" src="https://github.com/user-attachments/assets/adef7ff4-31b9-4e6d-9984-6df008cd355f" />
 
