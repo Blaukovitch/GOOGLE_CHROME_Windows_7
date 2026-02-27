@@ -23,12 +23,6 @@ Google Chrome for Windows 7 (cracklab) - COPY of **GOOGLE_CHROME_Windows_7_CRACK
 📊 [draw.io](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/draw.io)   
 📶 [signal](https://github.com/Blaukovitch/GOOGLE_CHROME_Windows_7/releases/tag/signal)   
 
-## Hardware Accelerated
-In `chrome://flags` must enabled:  
-**#ignore-gpu-blocklist  
-#enable-unsafe-webgpu   
-#enable-webgpu-developer-features**   
-
 ## Articles, news
 https://vk.com/wall-103116043_26401  
 https://xakep.ru/2023/08/10/chrome-for-windows-7/  
@@ -39,5 +33,5 @@ https://trackerninja.codeberg.page/post/latest-google-chrome-officially-cracked-
 # Chrome Enterprise Premium 
 Please, drop to me!  Private message in _cracklab.team_ forum - i send qTox number.  
 
-<img width="307" height="307" alt="image" src="https://github.com/user-attachments/assets/adef7ff4-31b9-4e6d-9984-6df008cd355f" />
+<img width="277" height="277" alt="image" src="https://github.com/user-attachments/assets/adef7ff4-31b9-4e6d-9984-6df008cd355f" />
 
